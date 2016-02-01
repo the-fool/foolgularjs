@@ -28,6 +28,7 @@ module.exports = function (grunt) {
                     before_tests: 'grunt jshint',
                     serve_files: [
                         'node_modules/lodash/index.js',
+                        'node_modules/lodash/lodash.js',
                         'node_modules/jquery/dist/jquery.js',
                         'node_modules/sinon/pkg/sinon.js',
                         'src/**/*.js',
